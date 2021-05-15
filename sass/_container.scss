@@ -36,3 +36,33 @@
     position: relative;
     margin-bottom: 90px;
 }
+
+// RESPONSIVE DESKTOP 
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+
+    .container-responsive {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 120px 80px;
+    }
+
+    .container {
+        margin: 0px;
+        width: 50%;
+
+        img {
+            border-radius: 0px 5px 5px 0px;
+        }
+
+        .image-color {
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+
+    .container-second {
+        margin: 0px;
+        width: 50%;
+    }   
+}
+

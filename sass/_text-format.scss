@@ -42,3 +42,25 @@
 .attribution {
     margin-bottom: 20px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+
+    .text-responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .text-mobile-h1 {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .text-mobile-p {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 40px;
+    }
+}
